@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mode_entries">
+        <item>Totals</item>
+        <item>Speeds</item>
+    </string-array>
+    <string-array name="mode_entry_values">
+        <item>totals</item>
+        <item>speeds</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Data Minder</string>
+    <string name="floating_text_tx">U: %s</string>
+    <string name="floating_text_rx">D: %s</string>
+    <string name="service_running">Service running</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+</resources>
