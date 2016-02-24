@@ -9,9 +9,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class TrafficMonitor {
 
     public interface Listener {
-
         void onTrafficUpdate(long tx, long rx);
-
     }
 
     private static TrafficMonitor mInstance;
@@ -33,7 +31,7 @@ public class TrafficMonitor {
     private long mTotalTxBytes;
     private long mTotalRxBytes;
 
-    public TrafficMonitor(Context context) {
+    private TrafficMonitor(Context context) {
         mContext = context;
         resetTotals();
 
